@@ -62,7 +62,8 @@ for (i = 0; i < close.length; i++) {
 // Destroy everything
 function destroyAll() {
 	$("#button2").addClass("animate__animated animate__jello");
-	kill = document.querySelectorAll('li');
+  var killtest = document.querySelector("#myToDo");
+  kill = killtest.querySelectorAll("LI");
 	for (let i = 0; i < kill.length; i++) {
 		kill[i].remove();
 	}
