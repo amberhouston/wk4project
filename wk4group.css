@@ -1,5 +1,5 @@
 Body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image:black; 
        /*naniiiiii  */
 }
@@ -23,8 +23,27 @@ h1 {
 
 }
 
-
-.navbar{
-    background-image:cadetblue!important;
+.navbar {
+    background-image: linear-gradient(90deg, rgb(184, 248, 184), rgb(184, 248, 184))  !important;
+    
+    
+    /* if IDs and inline styling doesn't work, neither does !important */
 }
 
+.container-bg {
+    background-color: rgb(184, 248, 184);
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 200%;
+
+}
+
+.navbar a{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    }
+
+.container-end {
+    padding: 5%;
+    image-orientation: center;
+}
