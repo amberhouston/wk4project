@@ -112,11 +112,13 @@
     <hr class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7 order-md-2" id="jon">
-        <h2 class="featurette-heading">
-          John (Yeonjun) Cho <strong>/</strong>
-          <span class="text-muted">Code Clowder Co-Founder</span>
+       <div class = "wrapper">  
+        <h2 class="featurette-heading" >
+          John (Yeonjun) Cho <strong>/</strong> Code Clowder Co-Founder</span>
         </h2>
-        <p class="lead">
+    </div> 
+        <p class="lead"  onmouseover="hover(this);"
+        onmouseleave="unhover(this);">
           My name is John and I am a student at Tech Talent South.
           I am a novice programmer, and I enjoy applying my new-learned skills
           to express myself through codes. (We were able to make this website only after a month of learning!)<br><br />
@@ -137,6 +139,8 @@
           usemap="#image-map"
           id="changed"
           style="margin-left: 20px !important; margin-bottom: 30px"
+          onmouseover="hover(this);"
+          onmouseleave="unhover(this);"
         />
 
         <map name="image-map">
@@ -150,6 +154,36 @@
         </map>
       </div>
     </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+      
+          
+          <filter id="squiggly-0">
+            <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="0"/>
+            <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="6" />
+          </filter>
+          <filter id="squiggly-1">
+            <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="1"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+          </filter>
+          
+          <filter id="squiggly-2">
+            <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="2"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+          </filter>
+          <filter id="squiggly-3">
+            <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+          </filter>
+          
+          <filter id="squiggly-4">
+            <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+          </filter>
+        </defs> 
+      </svg>
+
     <img src="assets/trail.png" id="trails" />
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="aboutDev.js"></script>
