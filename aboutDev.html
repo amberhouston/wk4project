@@ -9,43 +9,81 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" type="text/css" href="aboutDev.css" />	
-	<link
-	rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" type="text/css" href="aboutDev.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kaushan+Script&family=Scheherazade+New&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-    <div class="container-fluid">
-      <a class="navbar-brand" href="main.html"><img src="assets/Code_Clowder.PNG" style = "height: 70px; width: 150px;"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" wfd-invisible="true">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="main.html"
+          ><img
+            src="assets/Code_Clowder.PNG"
+            style="height: 70px; width: 150px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          wfd-invisible="true"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item ">
-            <a class="nav-link" href="main.html">Home (Current)</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ToDoPage.html">ToDo List</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Tip Calculator<span class="sr-only"></span></a>
-          </li>
-          
-        </ul>
-      </div>
-    </div>
-  </nav>
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <div class="col-md-5 p-lg-5 mx-auto my-5" id = "pitch">
-          <h1 class="display-4 fw-normal">About the Devs</h1>
-          <p class="lead fw-normal">Code Clowder is a group focused on not only writing code, but also making it elegant.</p>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="aboutDev.html"
+                >About the Devs (Current)</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ToDoPage.html">ToDo List</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Tip Calculator<span class="sr-only"></span
+              ></a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    <div
+      class="
+        position-relative
+        overflow-hidden
+        p-3 p-md-5
+        m-md-3
+        text-center
+        bg-light
+      "
+    >
+      <div class="col-md-5 p-lg-5 mx-auto my-5" id="pitch">
+        <h1 class="display-4 fw-normal">About the Devs</h1>
+        <p class="lead fw-normal">
+          Code Clowder is a group focused on not only writing code, but also
+          making it elegant.
+        </p>
+      </div>
+      <div class="DaPaws"></div>
+      <div class="DaPaws DaPaws-2" id="DPaw"></div>
+    </div>
     <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Amber "Mako" Houston<span class="text-muted"> Aspiring Programmer</span></h2>
@@ -68,20 +106,53 @@
           <img src="https://share-cdn.picrew.me/shareImg/org/202109/195495_2OPqBumb.png">
         </div>
       </div>
-      
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-  
-        </div>
-      </div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->    
+    </div>
+
+    <hr class="featurette-divider" />
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2" id="jon">
+        <h2 class="featurette-heading">
+          John (Yeonjun) Cho <strong>/</strong>
+          <span class="text-muted">Code Clowder Co-Founder</span>
+        </h2>
+        <p class="lead">
+          My name is John and I am a student at Tech Talent South.
+          I am a novice programmer, and I enjoy applying my new-learned skills
+          to express myself through codes. (We were able to make this website only after a month of learning!)<br><br />
+          I graduated from the University of Virginia with a BA in Japanese and
+          MA in East Asian Studies. <br /><br />
+          While in school, I worked with the Foreign Languages Department to
+          create VR applications/videos for language students to have an
+          immersive learning experience. This experience helped me to shape my
+          passion in programming, and I want to use my skills in the future to
+          help other students (or anyone, really) to find their passion. <br><br>
+          If you want to connect with me, or work on something together, you can always reach me at <a href="mailto: johncho1997@gmail.com">johncho1997@gmail.com</a>
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img
+          class="featurette-image img-fluid mx-auto bd-placeholder-img"
+          src="assets/CouldBeMe.png"
+          usemap="#image-map"
+          id="changed"
+          style="margin-left: 20px !important; margin-bottom: 30px"
+        />
+
+        <map name="image-map">
+          <area
+            target="_self"
+            alt="reveal"
+            onclick="boop()"
+            coords="255,281,14"
+            shape="circle"
+          />
+        </map>
+      </div>
+    </div>
+    <img src="assets/trail.png" id="trails" />
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="aboutDev.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -97,6 +168,5 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-
   </body>
 </html>
